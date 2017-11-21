@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "scp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "www.shop-wiz.com",
+  "target": "/home/winkzone/pythonProject/myvenv",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "winkzone",
+  "password": "winkzone)(*",
+  "watch": []
+}
